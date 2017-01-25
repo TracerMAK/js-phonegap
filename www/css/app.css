@@ -1,0 +1,135 @@
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(open-sans/OpenSans-Semibold.ttf);
+}
+
+#app {
+    min-width: 320px;
+}
+
+.header-container {
+
+}
+
+.header-top {
+    /*background: rgb(148, 157, 255);*/
+    display: block;
+}
+
+.header-logo-container {
+    margin-left: 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.header-logo {
+    height: auto;
+    max-width: 100%;
+}
+
+.fb-login-button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.header-nav-container {
+    background: rgb(33, 49, 222);
+    background: rgb(20, 17, 222);
+    background: rgb(20,14,222); 
+    background: linear-gradient(to bottom, #1713dd 53%,#0d09ea 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -webkit-linear-gradient(top, #1713dd 53%,#0d09ea 67%); /* Chrome10-25,Safari5.1-6 */
+    background: -moz-linear-gradient(0% 55% 270deg, rgb(23,18,235), #FFFFFF, rgb(20,14,222) 0%);    
+}
+
+.header-nav-container ul {
+    display: table;
+    width: 100%;
+    list-style: none;
+}
+
+.header-nav-container li {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid rgb(27, 79, 222);
+}
+
+.header-nav-container li img {
+
+}
+
+.header-nav-container a {
+    display: block;
+}
+
+.header-page-container {
+    margin-left: 5px;
+    border-bottom: 1px solid gray;
+    margin-right: 5px;
+}
+
+.header-page-container ul {
+    display: table;
+    width: 100%;
+    list-style: none;
+    /*background: rgb(255, 255, 242);*/
+    margin-top: -6px;
+    margin-bottom: -10px;  
+    margin-left: -12px;
+    border-spacing: 14px;
+}
+
+.header-page-container li {
+    position: relative;
+    display: table-cell;
+    font-family: OpenSansSemiBold;
+    font-size: 16px;
+    color: #2C3940;
+    text-align: center;
+    padding-left: 2px;
+    padding-bottom: 4px;
+    padding-right: 2px;
+}
+
+.arrow-box {
+	position: relative;
+	background: rgba(255, 194, 30, 1.0);
+	border: 1px solid rgba(255, 194, 30, 1.0);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.arrow-box:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow-box:after {
+	/*border-color: rgba(136, 183, 213, 0); /* Don't change */
+	border-left-color: rgba(255, 194, 30, 1.0);
+	border-width: 13px;
+	margin-top: -13px;
+}
+
+.header-page-container li:first-child {
+    
+}
+
+.header-page-container li:last-child {
+
+}
+
+.main-content {
+
+}
